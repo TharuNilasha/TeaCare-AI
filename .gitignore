@@ -1,0 +1,18 @@
+# Python / Environment
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+venv/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+
+# Streamlit
+.streamlit/config.toml
+
+# Model binary weights (upload via GitHub web UI or Git LFS)
+models/tea_leaf_model.pth
