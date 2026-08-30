@@ -1,0 +1,183 @@
+{
+  "model_backbone": "resnet18",
+  "num_classes": 8,
+  "raw_classes": [
+    "Anthracnose",
+    "algal leaf",
+    "bird eye spot",
+    "brown blight",
+    "gray light",
+    "healthy",
+    "red leaf spot",
+    "white spot"
+  ],
+  "class_to_idx": {
+    "Anthracnose": 0,
+    "algal leaf": 1,
+    "bird eye spot": 2,
+    "brown blight": 3,
+    "gray light": 4,
+    "healthy": 5,
+    "red leaf spot": 6,
+    "white spot": 7
+  },
+  "idx_to_class": {
+    "0": "Anthracnose",
+    "1": "algal leaf",
+    "2": "bird eye spot",
+    "3": "brown blight",
+    "4": "gray light",
+    "5": "healthy",
+    "6": "red leaf spot",
+    "7": "white spot"
+  },
+  "idx_to_display_name": {
+    "0": "Anthracnose",
+    "1": "Algal Leaf Spot",
+    "2": "Bird's Eye Spot",
+    "3": "Brown Blight",
+    "4": "Gray Light",
+    "5": "Healthy Tea Leaf",
+    "6": "Red Leaf Spot",
+    "7": "White Spot"
+  },
+  "test_metrics": {
+    "accuracy": 0.9248,
+    "precision": 0.9289,
+    "recall": 0.9248,
+    "f1_score": 0.9247
+  },
+  "per_class_metrics": {
+    "Anthracnose": {
+      "precision": 0.9230769230769231,
+      "recall": 0.8,
+      "f1-score": 0.8571428571428571,
+      "support": 15.0
+    },
+    "Algal Leaf Spot": {
+      "precision": 0.9411764705882353,
+      "recall": 0.9411764705882353,
+      "f1-score": 0.9411764705882353,
+      "support": 17.0
+    },
+    "Bird's Eye Spot": {
+      "precision": 0.7777777777777778,
+      "recall": 0.9333333333333333,
+      "f1-score": 0.8484848484848485,
+      "support": 15.0
+    },
+    "Brown Blight": {
+      "precision": 0.8947368421052632,
+      "recall": 1.0,
+      "f1-score": 0.9444444444444444,
+      "support": 17.0
+    },
+    "Gray Light": {
+      "precision": 0.9285714285714286,
+      "recall": 0.8666666666666667,
+      "f1-score": 0.896551724137931,
+      "support": 15.0
+    },
+    "Healthy Tea Leaf": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 11.0
+    },
+    "Red Leaf Spot": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 22.0
+    },
+    "White Spot": {
+      "precision": 0.9473684210526315,
+      "recall": 0.8571428571428571,
+      "f1-score": 0.9,
+      "support": 21.0
+    },
+    "accuracy": 0.924812030075188,
+    "macro avg": {
+      "precision": 0.9265884828965324,
+      "recall": 0.9247899159663866,
+      "f1-score": 0.9234750430997896,
+      "support": 133.0
+    },
+    "weighted avg": {
+      "precision": 0.9289222187916292,
+      "recall": 0.924812030075188,
+      "f1-score": 0.9247236616694745,
+      "support": 133.0
+    }
+  },
+  "training_epochs": 12,
+  "best_val_acc": 0.8797,
+  "training_history": {
+    "train_loss": [
+      1.3143750154721718,
+      0.9730505762269693,
+      0.9028013047185969,
+      0.7701974768245741,
+      0.7192359249888406,
+      0.6436179535454425,
+      0.6307628250083553,
+      0.5873710213647327,
+      0.5166500308016776,
+      0.4904534971771795,
+      0.4842433082075227,
+      0.4349009313760551
+    ],
+    "train_acc": [
+      0.5460420032310178,
+      0.6639741518578353,
+      0.7172859450726979,
+      0.7867528271405493,
+      0.815831987075929,
+      0.851373182552504,
+      0.851373182552504,
+      0.8836833602584814,
+      0.9030694668820679,
+      0.9192245557350566,
+      0.9240710823909531,
+      0.9450726978998385
+    ],
+    "val_loss": [
+      0.9393609331962758,
+      1.146040099455898,
+      0.7990482776684869,
+      1.1970340779849462,
+      0.7585095023750362,
+      0.6352945534806502,
+      0.7482358595930544,
+      0.7496465186875566,
+      0.6310872583460987,
+      0.5712059548026637,
+      0.5481470039016322,
+      0.5473791741787043
+    ],
+    "val_acc": [
+      0.7293233082706767,
+      0.5714285714285714,
+      0.7593984962406015,
+      0.6691729323308271,
+      0.8120300751879699,
+      0.849624060150376,
+      0.8345864661654135,
+      0.8195488721804511,
+      0.849624060150376,
+      0.8796992481203008,
+      0.8796992481203008,
+      0.8721804511278195
+    ]
+  },
+  "dataset_counts": {
+    "Anthracnose": 100,
+    "Algal Leaf Spot": 113,
+    "Bird's Eye Spot": 100,
+    "Brown Blight": 113,
+    "Gray Light": 100,
+    "Healthy Tea Leaf": 74,
+    "Red Leaf Spot": 143,
+    "White Spot": 142
+  }
+}
